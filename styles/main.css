@@ -1,0 +1,91 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.container {
+    width: 955px;
+}
+
+.folder-container {
+    display: inline-block;
+    margin: 50px 0 0 50px;
+    overflow: hidden;
+    width: 750px;
+}
+
+.folder-column-header {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.folder-heading {
+    border-bottom: solid 2px #000;
+}
+
+.folder-listing {
+    height: 250px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.folder-listing-row {
+    border-bottom: dotted 1px #eaeaea;
+}
+
+.folder-listing-text {
+    font-size: 12px;
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.folder-listing-image {
+    margin: 0 5px;
+}
+
+.folder-listing-name {
+    width: 345px;
+}
+
+.folder-listing-description {
+    width: 250px;
+}
+
+.folder-listing-modified-date {
+    width: 135px;
+}
+
+.buttons-container {
+    display: inline-block;
+    height: 250px;
+}
+
+.action-button-column {
+    display: inline-block;
+    width: 50px;
+    vertical-align: top;
+}
+
+.action-button {
+    margin: 0 2px;
+    width: 46px;
+    height: 46px;
+}
+
+.action-button-collapse {
+    margin: 0 2px;
+    width: 146px;
+}
+
+.action-button-expand {
+    margin: 0 2px;
+    width: 46px;
+}
+
+.action-button-collapsed {
+    width: 50px;
+}
+
+.action-button-expanded {
+    width: 150px;
+}
